@@ -7,11 +7,10 @@ brew "coreutils"
 brew "fastlane"
 brew "git"
 brew "git-gui"
-brew "python@3.9"
+brew "python@3.10"
 brew "nmap"
 brew "virtualenv", link: false
 brew "xcodegen"
-brew "nvm"
 cask "atom"
 cask "db-browser-for-sqlite"
 cask "firefox"
@@ -21,5 +20,3 @@ cask "karabiner-elements"
 cask "charles"
 cask "rectangle"
 cask "iterm2"
-mas "Xcode", id: 497799835
-mas "1Password", id: 1333542190 

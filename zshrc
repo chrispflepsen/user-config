@@ -28,5 +28,9 @@ antigen apply
 
 alias python='python3'
 alias pip='pip3'
+alias poop='Echo "Please stop Brandon"'
 
 less_termcap[md]="${fg_bold[cyan]}"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
