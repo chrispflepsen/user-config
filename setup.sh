@@ -21,10 +21,17 @@ open https://developer.apple.com/download/all/?q=xcode
 # 1Password
 curl https://downloads.1password.com/mac/1Password.zip -o ~/downloads/1Password.zip --create-dirs
 open ~/downloads/1Password.zip
-open https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/?src=search
 
 # Firefox
-open https://download.mozilla.org/?product=firefox-latest-ssl&os=osx&lang=en-US
+curl -L https://download.mozilla.org/?product=firefox-latest-ssl&os=osx&lang=en-US -o ~/downloads/firefox.dmg  --create-dirs
+open ~/downloads/firefox.dmg
+
+# Firefox 1Password addon
+Echo "🧑🏻‍💻 https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/?src=search"
+
+# Proxyman
+curl -L https://proxyman.io/release/osx/Proxyman_latest.dmg -o ~/downloads/proxyman.dmg --create-dirs
+open ~/downloads/proxyman.dmg
 
 # zsh config
 mv zshrc ~/.zshrc
