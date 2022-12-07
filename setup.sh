@@ -14,7 +14,7 @@ sh ~/.vim_runtime/install_awesome_vimrc.sh
 \curl -sSL https://get.rvm.io | bash -s stable
 
 #install nvm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
 
 #reminders
 ./reminders.sh
