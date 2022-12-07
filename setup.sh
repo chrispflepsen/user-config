@@ -19,19 +19,19 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
 open https://developer.apple.com/download/all/?q=xcode
 
 # 1Password
-curl https://downloads.1password.com/mac/1Password.zip -o ~/downloads/1Password.zip --create-dirs
-open ~/downloads/1Password.zip
+curl https://downloads.1password.com/mac/1Password.zip -o ~/Downloads/1Password.zip --create-dirs
+open ~/Downloads/1Password.zip
 
 # Firefox
-curl -L https://download.mozilla.org/?product=firefox-latest-ssl&os=osx&lang=en-US -o ~/downloads/firefox.dmg  --create-dirs
-open ~/downloads/firefox.dmg
+curl -L https://download.mozilla.org/?product=firefox-latest-ssl&os=osx&lang=en-US -o ~/Downloads/firefox.dmg  --create-dirs
+open ~/Downloads/firefox.dmg
 
 # Firefox 1Password addon
 Echo "🧑🏻‍💻 https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/?src=search"
 
 # Proxyman
-curl -L https://proxyman.io/release/osx/Proxyman_latest.dmg -o ~/downloads/proxyman.dmg --create-dirs
-open ~/downloads/proxyman.dmg
+curl -L https://proxyman.io/release/osx/Proxyman_latest.dmg -o ~/Downloads/proxyman.dmg --create-dirs
+open ~/Downloads/proxyman.dmg
 
 # zsh config
 mv zshrc ~/.zshrc
