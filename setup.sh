@@ -26,11 +26,8 @@ curl https://downloads.1password.com/mac/1Password.zip -o ~/Downloads/installers
 open ~/Downloads/installers/1Password.zip
 
 # Firefox
-curl -L https://download.mozilla.org/?product=firefox-latest-ssl&os=osx&lang=en-US -o ~/Downloads/installers/firefox.dmg --create-dirs
+curl -L https://download.mozilla.org/\?product\=firefox-latest-ssl\&os\=osx\&lang\=en-US -o ~/Downloads/installers/firefox.dmg --create-dirs
 open ~/Downloads/installers/firefox.dmg
-
-# Firefox 1Password addon
-Echo "🧑🏻‍💻 https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/?src=search"
 
 # Proxyman
 curl -L https://proxyman.io/release/osx/Proxyman_latest.dmg -o ~/Downloads/installers/proxyman.dmg --create-dirs
@@ -41,3 +38,6 @@ curl https://raw.githubusercontent.com/chrispflepsen/user-config/main/zshrc > ~/
 
 # cleanup
 rm -rf ~/.user-config
+
+# Firefox 1Password addon
+Echo "🧑🏻‍💻 https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/?src=search"
