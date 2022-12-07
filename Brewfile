@@ -12,7 +12,6 @@ brew "nmap"
 brew "virtualenv", link: false
 brew "xcodegen"
 brew "wget"
-cask "atom"
 cask "db-browser-for-sqlite"
 cask "homebrew/cask-fonts/font-hack"
 cask "karabiner-elements"
