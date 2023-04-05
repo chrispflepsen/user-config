@@ -10,6 +10,7 @@ antigen bundle command-not-found
 antigen bundle colored-man-pages
 antigen bundle zsh_reload
 antigen bundle virtualenv
+antigen bundle xcode
 
 # Fish-like auto suggestions
 antigen bundle zsh-users/zsh-autosuggestions
